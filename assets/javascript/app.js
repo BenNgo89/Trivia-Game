@@ -25,7 +25,7 @@ var triviaQuestions = [
     answer: 2
   },
   {
-    question: "What areana does the 76ers play in ?",
+    question: "What arena does the 76ers play in ?",
     answerList: [
       "Lincoln Financial Field",
       "Citizens Bank Park",
