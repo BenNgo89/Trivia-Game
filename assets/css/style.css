@@ -1,0 +1,67 @@
+body{
+    background: url('../images/Philadelphia-76ers-Desktop-Widescreen-Wallpaper-34022.jpg');
+    background-size: 1280px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+}
+
+header{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+     font-family: Sigmar One;
+    color: red;
+}
+
+.btn-primary,.reset{
+	background-color: red;
+	color: white;
+	font-family: 'Sigmar One', sans-serif;
+	font-size: 30px;
+	padding: 20px;
+	margin-top: 100px;
+}
+.btn-primary:hover, .reset:hover{
+	background-color: red;
+}
+
+.container{
+	margin-top: 50px;
+	text-align: center;
+	height: 100%;
+	width: 700px;
+}
+
+h2, #message, #finalMessage{
+    font-family: Sigmar One;
+    color:  red;
+}
+
+#timeLeft , #currentQuestion , .thisChoice , #correctedAnswer{
+    color:red;
+}
+
+#correctAnswers , #incorrectAnswers , #unanswered {
+    color: red;
+    font-size: 30px;
+}
+.thisChoice{
+    font-size: 30px;
+}
+
+.thisChoice:hover{
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+
+@media screen and (max-width:640px){
+	.container{
+        width: 100%;
+        height:100%;
+		margin-top: 200px;
+		size: 200%;
+    }	
+    
+}

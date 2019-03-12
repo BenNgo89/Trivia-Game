@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Philadelphia Triva Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--CSS File-->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+
+    <!-- BootStrap File-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+ <!--Audio-->
+<audio src= "assets/music/Rocky Theme song.mp3" controls autoplay loop></audio>
+
+    <header>
+        Philadelphia Trivia Game
+    </header>
+    <div class='container'>
+        <button class='btn btn-primary' id='startBtn'>Start</button>
+        <!-- Question page -->
+        <div id=timeLeft></div>
+        <div id=currentQuestion></div>
+        <div class='question'></div>
+        <div class='answerList'></div>
+        <!-- Answer Page -->
+        <div id=message></div>
+        <div id=correctedAnswer></div>
+        <div id=gif></div>
+        <!-- Scoreboard -->
+        <div id=finalMessage></div>
+        <div id=correctAnswers></div>
+        <div id=incorrectAnswers></div>
+        <div id=unanswered></div>
+        <div id='startOverBtn'></div>
+    </div>
+   <!--Javascript File-->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+    
+</body>
+</html>
